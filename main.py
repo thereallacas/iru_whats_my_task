@@ -4,4 +4,5 @@ accumulated = 0
 for c in x:
 	accumulated+=ord(c)
 task = accumulated%4
-print "a megoldando feladat: %d" %task
+feladatok=['A','B','C','D']
+print "a megoldando feladat: %c" %feladatok[task]
